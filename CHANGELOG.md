@@ -1,3 +1,7 @@
+## 0.0.2
+
+* Significantly enriched README documentation with detailed architecture diagrams, feature comparison matrix, and pro manual photography recipes (astrophotography, high-speed freeze, macro diopters, and edge AI raw frame streaming).
+
 ## 0.0.1
 
 * Initial release of `native_camera_kit`.

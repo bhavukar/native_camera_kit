@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'native_camera_kit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'High-performance Flutter camera plugin with direct low-level sensor access.'
   s.description      = <<-DESC
 High-performance Flutter camera plugin with direct low-level sensor access, manual ISO, shutter speed, focus, and raw frame streaming for Android & iOS.

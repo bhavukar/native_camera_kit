@@ -1,6 +1,6 @@
 name: native_camera_kit
 description: "High-performance Flutter camera plugin with direct low-level sensor access, manual ISO, shutter speed, focus, and raw frame streaming for Android & iOS."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/bhavukarora/native_camera_kit
 repository: https://github.com/bhavukarora/native_camera_kit
 issue_tracker: https://github.com/bhavukarora/native_camera_kit/issues
