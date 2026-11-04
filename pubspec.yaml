@@ -1,0 +1,35 @@
+name: native_camera_kit
+description: "High-performance Flutter camera plugin with direct low-level sensor access, manual ISO, shutter speed, focus, and raw frame streaming for Android & iOS."
+version: 0.0.1
+homepage: https://github.com/bhavukarora/native_camera_kit
+repository: https://github.com/bhavukarora/native_camera_kit
+issue_tracker: https://github.com/bhavukarora/native_camera_kit/issues
+topics:
+  - camera
+  - camerax
+  - avfoundation
+  - raw-frames
+  - manual-controls
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.bhavuk.native_camera_kit
+        pluginClass: NativeCameraKitPlugin
+      ios:
+        pluginClass: NativeCameraKitPlugin
